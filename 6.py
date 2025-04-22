@@ -16,3 +16,8 @@ for review, res in zip(reviews, result):
     print(f"Review: {review}")
     print(f"Sentiment: {res['label']}")
     print(f"Confidence: {res['score']:.2f}\n")
+
+
+--------------------------------------------------------------------------
+pip install torch torchvision torchaudio
+pip install numpy==1.22.4 --force-reinstall
